@@ -1,6 +1,6 @@
 import { createSeed, DB_VERSION, type MockDatabase } from "./seed";
 
-const STORAGE_KEY = "pasupatastra.mock-db";
+const STORAGE_KEY = "pasupasastra.mock-db";
 
 let cache: MockDatabase | null = null;
 

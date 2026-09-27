@@ -20,5 +20,5 @@ pub fn run() {
     tauri::Builder::default()
         .invoke_handler(tauri::generate_handler![app_info])
         .run(tauri::generate_context!())
-        .expect("error while running PASUPATASTRA GCS");
+        .expect("error while running pasupasastra GCS");
 }

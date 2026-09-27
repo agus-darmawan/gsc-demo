@@ -6,7 +6,7 @@ import type {
   WaypointAction,
 } from "@/types/mission";
 
-const FORMAT = "pasupatastra-plan";
+const FORMAT = "pasupasastra-plan";
 const ACTIONS: readonly WaypointAction[] = [
   "none",
   "hover",

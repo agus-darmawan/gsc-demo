@@ -101,7 +101,7 @@ export const useMissionStore = create<MissionState>()(
         })),
     }),
     {
-      name: "pasupatastra.mission-drafts",
+      name: "pasupasastra.mission-drafts",
       storage: createJSONStorage(() => localStorage),
       skipHydration: true,
       partialize: (s) => ({ drafts: s.drafts }),

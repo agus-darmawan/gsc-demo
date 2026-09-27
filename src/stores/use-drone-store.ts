@@ -118,7 +118,7 @@ export const useDroneStore = create<DroneState>()(
       setActive: (activeId) => set({ activeId }),
     }),
     {
-      name: "pasupatastra.fleet",
+      name: "pasupasastra.fleet",
       storage: createJSONStorage(() => localStorage),
       skipHydration: true,
       partialize: (s) => ({ activeId: s.activeId }),

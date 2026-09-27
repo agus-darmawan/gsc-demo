@@ -1,7 +1,7 @@
 import type { FlightParameters } from "@/types/drone";
 import type { LatLon } from "@/types/geo";
 
-export const APP_NAME = "PASUPATASTRA";
+export const APP_NAME = "pasupasastra";
 export const APP_TAGLINE = "Unified Command Center For Multi-drone Operations";
 
 export const DEFAULT_FLIGHT_PARAMS: FlightParameters = {

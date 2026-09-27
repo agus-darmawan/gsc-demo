@@ -1,4 +1,4 @@
-# PASUPATASTRA GCS
+# pasupasastra GCS
 
 Unified Command Center For Multi-drone Operations: a QGroundControl-style ground
 control station for multi-drone operations. Next.js 16 (static export) + React 19

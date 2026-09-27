@@ -24,7 +24,7 @@ export const useSettingsStore = create<SettingsState>()(
       reset: () => set(DEFAULT_SETTINGS),
     }),
     {
-      name: "pasupatastra.settings",
+      name: "pasupasastra.settings",
       storage: createJSONStorage(() => localStorage),
       skipHydration: true,
     },

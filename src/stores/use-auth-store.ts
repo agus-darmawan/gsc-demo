@@ -20,7 +20,7 @@ export const useAuthStore = create<AuthState>()(
       clear: () => set({ session: null }),
     }),
     {
-      name: "pasupatastra.auth",
+      name: "pasupasastra.auth",
       storage: createJSONStorage(() => localStorage),
       skipHydration: true,
       partialize: (s) => ({ session: s.session }),

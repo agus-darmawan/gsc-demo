@@ -82,7 +82,7 @@ export const useStreamStore = create<StreamState>()(
       setPage: (page) => set({ page: Math.max(0, page) }),
     }),
     {
-      name: "pasupatastra.video-view",
+      name: "pasupasastra.video-view",
       storage: createJSONStorage(() => localStorage),
       skipHydration: true,
       partialize: (s) => ({ hiddenIds: s.hiddenIds, pageSize: s.pageSize }),

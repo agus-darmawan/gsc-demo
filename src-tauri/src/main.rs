@@ -2,5 +2,5 @@
 #![cfg_attr(not(debug_assertions), windows_subsystem = "windows")]
 
 fn main() {
-    pasupatastra_gcs_lib::run()
+    pasupasastra_gcs_lib::run()
 }
